@@ -2,7 +2,7 @@
 void setup()
 {
  
-  divisible(2);
+  divisible(20);
 }
 
 
