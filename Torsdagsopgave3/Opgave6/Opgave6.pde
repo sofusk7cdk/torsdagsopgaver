@@ -6,6 +6,7 @@ void setup() {
   for (int x = 0; x < board.length; x++) {
     for (int y = 0; y < board[x].length; y++) {
       board[x][y] = (x + y) % 2;
+      println(board[x][y]);
     }
   }
 }
